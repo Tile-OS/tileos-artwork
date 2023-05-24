@@ -1,0 +1,14 @@
+Source: tileos-artwork
+Section: x11
+Priority: optional
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Build-Depends: debhelper-compat (= 13), intltool
+Standards-Version: 4.5.1
+Homepage: https://github.com/Tile-OS/tileos-artwork
+Rules-Requires-Root: no
+
+Package: tileos-sway-artwork
+Architecture: any
+Depends: ${misc:Depends}, qt5-style-kvantum
+Conflicts: tileos-river-artwork
+Description: Sway related themes and art for TileOS
