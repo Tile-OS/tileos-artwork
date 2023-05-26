@@ -9,6 +9,16 @@ Rules-Requires-Root: no
 
 Package: tileos-sway-artwork
 Architecture: any
-Depends: ${misc:Depends}, qt5-style-kvantum
+Depends: ${misc:Depends}, qt5-style-kvantum, papirus-icon-theme catppuccin-gtk-theme
 Conflicts: tileos-river-artwork
 Description: Sway related themes and art for TileOS
+
+Package: tileos-grub-theme
+Architecture: any
+Depends: ${misc:Depends}
+Description: GRUB theme for TileOS
+
+Package: tileos-wallpapers
+Architecture: any
+Depends: ${misc:Depends}
+Description: TileOS wallpapers
