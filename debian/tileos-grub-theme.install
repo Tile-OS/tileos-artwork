@@ -1,2 +1,2 @@
-common/usr/share/grub   /usr/share/
-common/etc/*            etc/
+usr/share/grub   /usr/share/
+etc/*            etc/
