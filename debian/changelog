@@ -1,3 +1,10 @@
+tileos-artwork (0.10~tileos) unstable; urgency=medium
+
+  * Move Kvantum theme to separate package
+  * Rename package
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 26 May 2023 20:45:22 +0400
+
 tileos-artwork (0.9~tileos) unstable; urgency=medium
 
   * Added GRUB theme
