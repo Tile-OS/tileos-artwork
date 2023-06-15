@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=TileOS - simple plymouth theme based on SimpleFuture
+Description=A theme featuring a simple debian logo and progress bar inspired by FuturePrototype and SimpleFuture.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/tileos
+ScriptFile=/usr/share/plymouth/themes/tileos/tileos.script
