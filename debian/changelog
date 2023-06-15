@@ -1,3 +1,10 @@
+tileos-artwork (0.11~tileos) unstable; urgency=medium
+
+  * grub: change active item color
+  * added plymouth theme
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 15 Jun 2023 14:47:33 +0400
+
 tileos-artwork (0.10~tileos) unstable; urgency=medium
 
   * Move Kvantum theme to separate package
