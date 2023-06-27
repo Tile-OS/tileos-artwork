@@ -27,9 +27,12 @@ Description: boot animation, logger and I/O multiplexer - TileOS theme
 Package: tileos-theme-catppuccin
 Architecture: all
 Depends: ${misc:Depends},
+         breeze-cursor-theme,
          catppuccin-gtk-theme,
          catppuccin-kvantum-theme,
          papirus-icon-theme,
+         qt5ct,
+         qt6ct,
          qt5-style-kvantum,
 Conflicts: tileos-sway-artwork
 Description: Catppuccin theme for TileOS
