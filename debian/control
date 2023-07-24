@@ -26,6 +26,7 @@ Description: boot animation, logger and I/O multiplexer - TileOS theme
 
 Package: tileos-theme-catppuccin
 Architecture: all
+Section: metapackages
 Depends: ${misc:Depends},
          breeze-cursor-theme,
          catppuccin-gtk-theme,
@@ -36,7 +37,7 @@ Depends: ${misc:Depends},
          qt5-style-kvantum,
 Conflicts: tileos-sway-artwork
 Description: Catppuccin theme for TileOS
- This package provides default look-and-feel for GTK and QT applications
+ This metapackage provides default look-and-feel for GTK and QT applications
  on TileOS.
 
 Package: tileos-grub-theme
