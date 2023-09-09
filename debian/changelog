@@ -1,3 +1,9 @@
+tileos-artwork (0.14~tileos) unstable; urgency=medium
+
+  * Update artwork
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 09 Sep 2023 23:07:37 +0400
+
 tileos-artwork (0.13~tileos) unstable; urgency=medium
 
   * Move Sway theme to tileos-settings-sway package

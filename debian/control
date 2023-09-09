@@ -24,9 +24,15 @@ Description: boot animation, logger and I/O multiplexer - TileOS theme
  .
  This package provides the default TileOS theme.
 
+Package: tileos-artwork
+Architecture: all
+Depends: ${misc:Depends}, tileos-theme-catppuccin, tileos-wallpapers
+Section: metapackages
+Description: themes and artwork for TileOS
+ This is a metapackage.
+
 Package: tileos-theme-catppuccin
 Architecture: all
-Section: metapackages
 Depends: ${misc:Depends},
          breeze-cursor-theme,
          catppuccin-gtk-theme,
