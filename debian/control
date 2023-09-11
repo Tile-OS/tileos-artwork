@@ -27,6 +27,7 @@ Description: boot animation, logger and I/O multiplexer - TileOS theme
 Package: tileos-artwork
 Architecture: all
 Depends: ${misc:Depends}, tileos-theme-catppuccin, tileos-wallpapers
+Conflicts: tileos-sway-artwork
 Section: metapackages
 Description: themes and artwork for TileOS
  This is a metapackage.
@@ -41,7 +42,6 @@ Depends: ${misc:Depends},
          qt5ct,
          qt6ct,
          qt5-style-kvantum,
-Conflicts: tileos-sway-artwork
 Description: Catppuccin theme for TileOS
  This metapackage provides default look-and-feel for GTK and QT applications
  on TileOS.
